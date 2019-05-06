@@ -4,25 +4,38 @@ title: Portfolio
 ---
 
 <main id="portfolio">
-	<h1 class="page-header">Projects</h1>
+	<h1 class="page-header">{{page.title}}</h1>
   <section>
     {{content}}
   </section>
 	<section>
+    <h2> Portfolio </h2>
+    <div id="porfolio-intro">
+      <p>
+          {{page.portfolio-intro}}
+      </p>
+    </div>
 		<div id="portfolio-gallery">
-			{% for project in site.projects %}
-			<div class="container">
-				<div class="aspect-ratio-keeper"> </div>
+      {% assign sorted = site.projects | reverse %}
+			{% for project in sorted %}
+			<div class="portfolio-item">
 				<div class="content">
 					<a href="{{ site.baseurl }}{{ project.url }}">
-						<span class="link-spanner"></span>
 						<div class="image-container">
-							<div class="image-vertical-align-box" >
-								<img class="inner" src="{{ site.baseurl }}/{{ site.image_path }}/{{ project.image }}">
-							</div>
+  						<img class="inner" src="{{ site.baseurl }}/{{ site.image_path }}/{{ project.image }}">
 						</div>
-						<div class="inner-text">
-							<h2>{{ project.title }}</h2>
+						<div class="details-container">
+							<div class="inner-title">
+								<h3>{{ project.title }}</h3>
+							</div>
+							<div class="inner-date">
+								{{project.date | date: "%Y-%m-%d" }}
+							</div>
+							<div class="inner-desc">
+								<p>
+									{{project.desc-short}}
+								</p>
+							</div>
 						</div>
 					</a>
 				</div>

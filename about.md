@@ -27,7 +27,7 @@ I have ample front-end experience in the fundamental web stack (HTML, CSS3, Java
 <i class="devicon-css3-plain-wordmark colored"></i>
 <i class="devicon-html5-plain-wordmark colored"></i>
 
-## But that tech is so outdated!
+## But that tech is kind of outdated!
 
 I started developing for the web back in 2007 (the old Internet Explorer days)
 and then Eng school happened as the web kept growing without me 🤷‍.
