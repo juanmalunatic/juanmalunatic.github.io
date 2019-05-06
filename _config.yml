@@ -23,12 +23,24 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
 github_username:  juanmalunatic
 
+# Minima settings (before theme:)
+header_pages:
+  - about.md
+  - projects.md
+  
 # Build settings
 markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+  
+# JM settings
 
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
+    
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
