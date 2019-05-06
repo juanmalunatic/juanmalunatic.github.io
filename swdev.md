@@ -1,14 +1,14 @@
 ---
 layout: page
-title: About me
-permalink: /about/
+title: Software stack
+permalink: /swdev/
 ---
 
-Hello there, and thanks for checking my personal page!
+I face challenges and solve complex technical issues with creativity, discipline, good programming practices, and a mindset of perpetual learning.
 
-I'm Juan Manuel Luna, a multilingual Electronics Engineer turned Software Development Engineer. I'm passionate about optimizing and transforming processes with technology. I face challenges and solve complex technical issues with creativity, discipline, good programming practices, and a mindset of perpetual learning.
+To this date, I use the stack below:
 
-### Back-end stack
+### Back-end
 
 I have experience with back-end service creation using PHP (Laravel), Node.js
 and Java SE. I'm used to working with SQL databases, Linux environments, cloud 
@@ -19,7 +19,7 @@ service providers (Google Cloud) and web scraping.
 <i class="devicon-nodejs-plain colored"></i>
 <i class="devicon-java-plain-wordmark colored"></i>
 
-### Front-end stack
+### Front-end
 
 I have ample front-end experience in the fundamental web stack (HTML, CSS3, JavaScript) and in developing responsive layouts. 
 
