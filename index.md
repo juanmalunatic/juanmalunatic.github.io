@@ -6,9 +6,9 @@ layout: page
 title: About me
 ---
 
-Hello there, thanks for checking my personal page!
+Hello there, thanks for visiting my personal page!
 
-I’m Juan Manuel Luna, a multilingual Electronics Engineer turned Software Developer.
+I’m Juan Manuel, a multilingual Electronics Engineer turned Software Developer.
 I’m passionate about optimizing and transforming processes with technology. 
 
 Check out [the software platforms I use](/swdev), my [public portfolio](/projects), or

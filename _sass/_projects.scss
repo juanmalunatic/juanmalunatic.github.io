@@ -1,0 +1,59 @@
+.return-projects {
+    margin-top:-15px;
+    margin-bottom:15px;
+}
+
+
+#head {
+    a {
+        display: block;
+    }
+}
+
+#title-link{
+
+    &,
+    h1 {
+        font-size:2.4rem;
+        margin:0;
+        padding:0;
+    }
+
+    &:link,
+    &:active,
+    &:focus,
+    &:visited {
+        color:#333;
+    }
+
+    
+}
+
+#project-single {
+
+    .holder {
+
+        font-size:1rem;
+        clear:both;
+
+        .label {
+            color:#666;
+        }
+
+        .value {
+            color: #000;
+        }   
+    }
+
+    #content {
+        margin-top: 20px;
+    }
+
+    #details {
+        margin-bottom: 15px;
+    }
+
+    #image {
+        box-shadow: 3px 3px 5px 2px rgba(0,0,0,0.15);        
+    }
+}

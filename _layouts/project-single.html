@@ -1,17 +1,50 @@
 ---
 layout: default
 ---
-<main class="project">
+<section class="return-projects">
+  <a href="/projects/" >
+    ← Return to "Projects"
+  </a>
+</section>
 
-	<section id="contact-content">
+<main id="project-single">
 
-		<h1 id="project-title">{{ page.title }}</h1>
-		<h3 id="project-date">{{ page.date | date: "%Y-%m" }}</h2>
+  <section id="head">
+      <a href="{{page.url}}" id="title-link">
+        <h1 id="title-header">{{ page.title }}</h1>
+      </a>
+      <a href="{{page.link}}" class="project-link" target="_blank">
+        {{page.link}}
+      </a>
+  </section>
 
-		{{ content }}
+  <section id="content">
+      {{ content }}
+  </section>
 
-		<img id="project-image" src="{{ site.baseurl }}/{{ site.image_path }}/{{ page.image }}">
-
-	</section>
+  <section id="details">
+    <div class="holder">
+        <span class="label">
+          Released:
+        </span>
+        <span class="value">
+          {{ page.date | date: "%B %Y" }}
+        </span>
+    </div>
+    <div class="holder">
+      <span class="label">
+        Tech:
+      </span>
+      <span class="value">
+        {{page.tech}}
+      </span>
+    </div>
+  </section>
+    
+  <section id="image">
+    <a href="{{page.link}}">
+      <img id="project-image" src="{{ site.baseurl }}/{{ site.image_path }}/{{ page.image }}">
+    </a>
+  </section>
 
 </main>

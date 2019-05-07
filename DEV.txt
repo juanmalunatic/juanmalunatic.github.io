@@ -1,0 +1,9 @@
+Run both from repo root
+
+bundle exec jekyll serve --watch
+browser-sync start --proxy "localhost:4000" --files "_site/**/*"
+
+First one recompiles
+Second one hot reloads
+  This one was recommended, but it didn't work
+    

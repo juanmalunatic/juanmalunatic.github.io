@@ -33,5 +33,5 @@ I started developing for the web back in 2007 (the old Internet Explorer days)
 and then Eng school happened as the web kept growing without me 🤷‍.
 
 However, I like to think I have strong fundamentals and I'm catching up fast.
-Stay tuned for adventures with the latest SPA JavaScripts and flavor-of-the-month
-ML libraries 💪.
+Stay tuned for adventures with the latest JavaScript frameworks and
+flavor-of-the-month ML libraries 💪.
